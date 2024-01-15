@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: 360px;
+    background: #eee;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading p{
+    margin-top: 20px;
+    color: gray;
+}
+
+.form-group{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: gray;
+}
+
+.form-group .error_mes{
+    color: red;
+    font-weight: bold;
+}
+
+.form-group button{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(0, 195, 255);
+}
